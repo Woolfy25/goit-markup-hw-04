@@ -121,6 +121,11 @@ img {
   padding: 188px 0;
 }
 
+.hero-div {
+  background-image: url("");
+  background-color: #2e2f42;
+}
+
 .page-title {
   color: var(--main-color-white);
   text-align: center;
