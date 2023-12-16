@@ -443,7 +443,7 @@ img {
   line-height: 111.111%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .section-five-ul-list {
@@ -491,11 +491,11 @@ img {
 .footer-div {
   display: flex;
   align-items: baseline;
-  /* margin gresit goit sau nu am facut eu corect */
-  margin-right: 120px;
-  gap: 120px;
 }
 
+.footer-div-logo {
+  margin-right: 120px;
+}
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
@@ -518,7 +518,7 @@ img {
 .footer-ul-list-svg {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .footer-list-svg {
