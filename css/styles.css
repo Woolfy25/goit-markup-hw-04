@@ -23,6 +23,10 @@ p {
   margin: 0;
 }
 
+h2 {
+  margin: 0;
+}
+
 .link {
   text-decoration: none;
   font-weight: 500;
@@ -436,6 +440,7 @@ img {
   color: #2e2f42;
   text-align: center;
 
+  margin-bottom: 72px;
   font-family: var(--text-font-family);
   font-size: 36px;
   font-style: normal;
@@ -443,7 +448,6 @@ img {
   line-height: 111.111%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  margin-bottom: 72px;
 }
 
 .section-five-ul-list {
