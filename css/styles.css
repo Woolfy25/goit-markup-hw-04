@@ -19,6 +19,9 @@ body {
 ul {
   padding: 0;
 }
+p {
+  margin: 0;
+}
 
 .link {
   text-decoration: none;
@@ -242,10 +245,10 @@ img {
   margin-bottom: 8px;
 }
 
-/* .section-one-svg {
+.section-one-svg {
   width: 64px;
   height: 64px;
-} */
+}
 
 .section-one {
   padding: 120px 0;
@@ -392,12 +395,13 @@ img {
 }
 
 .section-three-link-svg {
-  width: 100%;
   height: 100%;
+  width: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .section-three-link-svg:hover {
@@ -410,6 +414,8 @@ img {
 
 .section-three-svg {
   fill: #f4f4fd;
+  width: 16px;
+  height: 16px;
 }
 
 .list-employees {
@@ -419,6 +425,11 @@ img {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.section-five {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-five-title {
@@ -432,8 +443,44 @@ img {
   line-height: 111.111%;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 70px;
+  padding-bottom: 72px;
+}
+
+.section-five-ul-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-five-list {
+  width: 168px;
+  height: 88px;
+}
+
+.section-five-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
+}
+
+.section-five-link:hover {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+.section-five-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+.section-five-svg {
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
 }
 
 .foooter-bg {
@@ -444,6 +491,8 @@ img {
 .footer-div {
   display: flex;
   align-items: baseline;
+  /* margin gresit goit sau nu am facut eu corect */
+  margin-right: 120px;
   gap: 120px;
 }
 
@@ -456,6 +505,7 @@ img {
 }
 
 .social-media-text {
+  margin-bottom: 16px;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -463,7 +513,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffffff;
-  margin-bottom: 16px;
 }
 
 .footer-ul-list-svg {
@@ -484,6 +533,7 @@ img {
   border-radius: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-link-svg:hover {
@@ -496,6 +546,8 @@ img {
 
 .footer-svg {
   fill: #f4f4fd;
+  width: 24px;
+  height: 24px;
 }
 
 .footer-text-portfolio {
